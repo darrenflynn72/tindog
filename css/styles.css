@@ -40,7 +40,7 @@ p {
 }
 
 .container-fluid {
-  padding: 3% 15% 7%;
+  padding: 3% 10% 7%;
 }
 
 /* Navigation Bar */
@@ -67,6 +67,17 @@ p {
   font-size: 1.2em;
 }
 
+/* Title Text */
+
+.title-text
+{
+  /* font-family: "Montserrat-Black", sans-serif; */
+  font-family: "Montserrat";
+  font-weight : 900; /* Montserrat-Black */
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
 /* Download Buttons */
 
 .download-button {
@@ -82,15 +93,25 @@ p {
   right: 30%;
 }
 
+/* Mobile specific  */
 @media (max-width: 1024px) {
 
   #title {
     text-align: center;
   }
 
+  .title-text
+  {
+    /* font-family: "Montserrat-Bold", sans-serif; */
+    font-family: "Montserrat";
+    font-weight : 800; /* Montserrat-Bold */
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+
   .title-image {
     width:60%;
-      transform: rotate(0);
+    transform: rotate(0);
     position: static;
     right: 30%;
   }
@@ -99,7 +120,7 @@ p {
 /* Features section */
 
 #features {
-  padding: 7% 15%;
+  padding: 7% 10%;
   background-color: #FFFFFF;
   position: relative;
 }
@@ -133,13 +154,13 @@ p {
 }
 
 .carousel-item {
-  padding: 7% 15%;
+  padding: 7% 10%;
 }
 
 /* Press section */
 
 #press {
-  padding: 7% 15%;
+  padding: 7% 10%;
   text-align: center;
   background-color: #EF8172;
   color: #FFFFFF;
@@ -165,7 +186,7 @@ p {
 /* CTA section */
 
 #cta {
-  padding: 7% 15%;
+  padding: 7% 10%;
   text-align: center;
 }
 
