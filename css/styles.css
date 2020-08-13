@@ -192,6 +192,14 @@ p {
   text-align: center;
 }
 
+.cta-heading {
+  /* font-family: "Montserrat-Black", sans-serif; */
+  font-family: "Montserrat";
+  font-weight : 900; /* Montserrat-Black */
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
 /* Footer section */
 
 #footer {
