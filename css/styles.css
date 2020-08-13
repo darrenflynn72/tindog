@@ -82,6 +82,20 @@ p {
   right: 30%;
 }
 
+@media (max-width: 1024px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    width:60%;
+      transform: rotate(0);
+    position: static;
+    right: 30%;
+  }
+}
+
 /* Features section */
 
 #features {
