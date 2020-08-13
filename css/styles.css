@@ -160,7 +160,7 @@ p {
 /* Press section */
 
 #press {
-  padding: 7% 10%;
+  padding: 3% 10%;
   text-align: center;
   background-color: #EF8172;
   color: #FFFFFF;
@@ -183,25 +183,24 @@ p {
   padding: 3% 2%;
 }
 
-/* CTA section */
+/* CTA (call to action) section */
 
 #cta {
-  padding: 7% 10%;
+  background-color: #FF4C68;
+  color: #FFFFFF;
+  padding: 1% 10%;
   text-align: center;
 }
 
 /* Footer section */
 
 #footer {
-  background-color: #FF4C68;
-  color: #FFFFFF;
-
   font-size: 0.75rem;
   padding: 10px 0;
   text-align: center;
 }
 
 .social-icon {
-   color: #FFFFFF;
-   margin-bottom: 1rem;
+  color: #000000;
+  margin-bottom: 1rem;
 }
